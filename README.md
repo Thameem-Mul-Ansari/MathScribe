@@ -49,35 +49,6 @@ Copy code
 ```bash
 git clone https://github.com/your-username/ai-powered-calculator.git
 cd ai-powered-calculator
-2. Backend Setup
-Navigate to the backend directory:
-bash
-Copy code
-cd backend
-Install Python dependencies:
-bash
-Copy code
 pip install -r requirements.txt
-3. Frontend Setup
-Navigate to the frontend directory:
-bash
-Copy code
-cd ../frontend
-Install Node.js dependencies:
-bash
-Copy code
 npm install
-Running the Project
-1. Run the Backend Server
-bash
-Copy code
-cd backend
-uvicorn main:app --host 0.0.0.0 --port 8000 --reload
-2. Run the Frontend Development Server
-bash
-Copy code
-cd frontend
 npm run dev
-Access the Application
-Frontend: http://localhost:3000
-Backend API: http://localhost:8000
